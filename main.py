@@ -1,4 +1,4 @@
-from Group_work import fibonacci
+from Group_work import fibonacci_sequence
 from mendy import factorial
 
 
@@ -17,4 +17,4 @@ if __name__ =='__main__':
         n = eval(input("Enter the sequence position of the fibonacci value: "))
         if not isinstance(n, int):
             raise TypeError
-        print("The " + str(n) + "th fibonacci is " + fibonacci(n))
+        print("The " + str(n) + "th fibonacci is " + fibonacci_sequence(n))

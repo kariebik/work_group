@@ -1,7 +1,7 @@
 
 def fibonacci_sequence(n):
     """
-    Return the value in the fibonacci sequence at point n
+    Return the value in the fibonacci sequence at point n.
     Example fibonacci_sequence(8) = 34
     :param n: int
     :return: int

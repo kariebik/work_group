@@ -1,7 +1,7 @@
 import math
 def factorial(k):
     """
-    Return the factorial of the integer k
+    Return the factorial of the integer k.
     Example: factorial(3) = 1 * 2 * 3 = 6
     :param k: int
     :return: int

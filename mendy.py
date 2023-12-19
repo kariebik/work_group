@@ -6,5 +6,3 @@ def factorial(k):
         return 1
     else:
         return math.factorial(k)
-
-print((factorial(34)))

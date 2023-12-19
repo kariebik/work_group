@@ -1,5 +1,11 @@
 
 def fibonacci_sequence(n):
+    """
+    Return the value in the fibonacci sequence at point n
+    Example fibonacci_sequence(8) = 34
+    :param n: int
+    :return: int
+    """
     first_val = 1
     second_val = 1
     total = 0

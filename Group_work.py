@@ -10,7 +10,7 @@ def fibonacci_sequence(n):
         second_val = third_val
     return total
 
-print(fibonacci_sequence(160)
+print(fibonacci_sequence(160))
 #     if n < 0:
 #         return "Fibonacci is not defined for negative numbers"
 #     elif n == 0:

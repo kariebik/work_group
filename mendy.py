@@ -15,4 +15,4 @@ def factorial(k):
         return math.factorial(k)
 
     label = label(root, text=total)
-    label.pack
+    label.pack()

@@ -1,3 +1,4 @@
+from tkinter import *
 import math
 def factorial(k):
     """
@@ -12,3 +13,6 @@ def factorial(k):
         return 1
     else:
         return math.factorial(k)
+
+    label = label(root, text=total)
+    label.pack

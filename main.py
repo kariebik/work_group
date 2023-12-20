@@ -1,20 +1,26 @@
 from Group_work import fibonacci_sequence
 from mendy import factorial
 
+from tkinter import *
 
-if __name__ =='__main__':
-    print("which task would you like to perform: ")
-    print("1: Find the factorial")
-    print("2: Find the fibonacci value")
-    e = eval(input("Enter the number of the task you'd like to perform: "))
 
-    if e == 1:
-        k = eval(input("Enter the integer you'd like like to perform: "))
-        if not isinstance(k, int):
-            raise TypeError
-        print("The factorial of " + str(k) + " is: " + str(factorial(k)))
-    elif e == 2:
-        n = eval(input("Enter the sequence position of the fibonacci value: "))
-        if not isinstance(n, int):
-            raise TypeError
-        print("The " + str(n) + " th fibonacci is " + str(fibonacci_sequence(n)))
+root =Tk()
+root.title("Milestone 2")
+label1 = Label(root, text= "Enter the number of the task you'd like to perform:")
+
+label1.pack()
+
+e = Entry(root)
+e.pack()
+
+n = eval(e.get())
+
+button = Button(root, text='Find the factorial', command= lambda: factorial(n))
+button2 = Button(root, text='Find the fibonacci', command=lambda: fibonacci_sequence(n))
+button.pack()
+button2.pack()
+
+
+root.mainloop()
+
+

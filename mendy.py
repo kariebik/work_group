@@ -1,4 +1,4 @@
-from tkinter import *
+
 import math
 def factorial(k):
     """

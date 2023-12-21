@@ -54,7 +54,7 @@ e.pack()
 
 
 button = Button(root, text='Find the factorial', command= lambda: factorial(e.get()))
-button2 = Button(root, text='Find the fibonacci', command=lambda: fibonacci_sequence(e.get()))
+button2 = Button(root, text='Find the fibonacci', command= lambda: fibonacci_sequence(e.get()))
 button.pack()
 button2.pack()
 
